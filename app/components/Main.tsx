@@ -44,7 +44,7 @@ const Main = () => {
     }, 2000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [texts.length]);
   return (
     <section className="relative bg-white py-24 px-8 md:px-4">
       <div className=" mx-auto grid md:grid-cols-2 gap-10">
