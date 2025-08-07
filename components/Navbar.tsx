@@ -6,8 +6,8 @@ const Navbar = () => {
   
 
   return (
-    <nav className="bg-gray-100 p-4 fixed w-full top-0 left-0 z-50 shadow-md flex justify-between items-center">
-      <div className="flex items-center space-x-6 gap-2">
+    <nav className="bg-gray-100 px-6 py-2 fixed w-full top-0 left-0 z-50 shadow-md flex justify-between items-center">
+      <div className="flex items-center space-x-6 gap-2 bg-">
         <span className="flex items-center text-3xl">
           <Image src="/cowrywiselogo.svg" alt="CowryWise Logo" width={150} height={30} />
         </span>

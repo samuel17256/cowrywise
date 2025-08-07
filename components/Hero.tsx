@@ -16,7 +16,7 @@ function Hero() {
   }, [])
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className=" min-h-screen w-full overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="/hero-video-new-c5.mp4"

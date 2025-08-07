@@ -1,14 +1,16 @@
-import Layout from "./components/Layout";
-import Hero from "./components/Hero";
-import Main from "./components/Main";
+import Footer from "@/components/Footer";
+import Main from "../components/Main";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px]">
-      <Layout>
-      <Hero />
-      <Main />
-      </Layout>
+    <div className="font-sans min-h-screen flex flex-col">
+      <Navbar />
+      <main className="flex-grow">
+        <Main />
+      </main>
+      <Footer />
     </div>
   );
 }
+
