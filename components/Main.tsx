@@ -168,7 +168,7 @@ const Main = () => {
             </g>
           </svg>
 
-          <div className="absolute  left-[-190px] bottom-[230px] bg-white shadow-lg rounded-xl p-6 w-72 z-10">
+          <div className="absolute  left-[-190px] bottom-[220px] bg-white shadow-lg rounded-xl p-6 w-72 z-10">
             <h3 className="font-bold text-blue-900">Build your savings</h3>
             <p className="text-sm text-gray-600">
               Consistently automate your savings while setting realistic goals.
@@ -178,7 +178,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="absolute -left-[0px] bottom-[420px] bg-white shadow-lg rounded-xl p-6 w-72 z-10">
+          <div className="absolute -left-[0px] bottom-[410px] bg-white shadow-lg rounded-xl p-6 w-72 z-10">
             <h3 className="font-bold text-blue-900">Invest deliberately</h3>
             <p className="text-sm text-gray-600">
               Invest in our diverse range of assets that grow in value over
@@ -189,7 +189,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="absolute left-[190px] bottom-[600px] bg-white shadow-lg rounded-xl p-4 w-72 z-10">
+          <div className="absolute left-[190px] bottom-[590px] bg-white shadow-lg rounded-xl p-4 w-72 z-10">
             <h3 className="font-bold text-blue-900">Stay rich ✨</h3>
             <p className="text-sm text-gray-600">
               Protect your wealth by managing risk, seeking advice and making
@@ -205,7 +205,7 @@ const Main = () => {
       <section className="py-4">
         <div className=" max-w-7xl">
           <h1 className="text-3xl md:text-6xl font-semibold text-blue-950 mb-16 pl-4">
-            You name it, we've <br /> figured it out.
+            You name it, we&apos;ve <br /> figured it out.
           </h1>
 
           <div className="relative max-w-3">
@@ -333,7 +333,7 @@ const Main = () => {
                 </div>
               </div>
 
-              <button className="mt-4 bg-blue-600 w-34 px-4 py-2 text-white  rounded-md font-semibold shadow hover:bg-blue-700 transition">
+              <button className="mt-4 bg-blue-600 w-38 px-4 py-3 text-white  rounded-md font-semibold shadow hover:bg-blue-700 transition">
                 Sign up now
               </button>
             </div>
@@ -411,10 +411,10 @@ const Main = () => {
             Learn more
           </a>
           <div className="mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 max-w-3xl space-x-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl space-x-6">
               <div>
-                <h1 className="text-xl font-bold mb-2">Top-Notch security</h1>
-                <p className="text-gray-200 max-w-2xl">
+                <h1 className="text-xl font-bold mb-4">Top-Notch security</h1>
+                <p className="text-gray-200 mb-2">
                   We use industry-standard encryption technology to protect user
                   data. We also use two-factor authentication to verify all
                   customer accounts, so you can be sure that your funds are safe
@@ -422,10 +422,10 @@ const Main = () => {
                 </p>
               </div>
               <div>
-                <h1 className="text-xl font-bold mb-2">
+                <h1 className="text-xl font-bold mb-4">
                   Regulatory Compliance
                 </h1>
-                <p className="text-gray-200">
+                <p className="text-gray-200 mb-2">
                   Cowrywise is a duly registered fund manager with the
                   Securities and Exchange Commission (SEC) of Nigeria. All our
                   activities are in full compliance with regulatory requirements
@@ -434,9 +434,9 @@ const Main = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 max-w-3xl space-x-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl space-x-6">
               <div>
-                <h1 className="text-xl font-bold mb-2">Assets Custody</h1>
+                <h1 className="text-xl font-bold mb-4">Assets Custody</h1>
                 <p className="text-gray-200">
                   Our users financial assets are held with a licensed custodian,
                   Zenith Nominees Limited, for safekeeping to prevent
@@ -445,8 +445,8 @@ const Main = () => {
                 </p>
               </div>
               <div>
-                <h1 className="text-xl font-bold mb-2">Best-In-Class Assets</h1>
-                <p className="text-gray-200">
+                <h1 className="text-xl font-bold mb-4">Best-In-Class Assets</h1>
+                <p className="text-gray-200 mb-2">
                   All the investment options listed on Cowrywise, are carefully
                   screened, managed by professional fund managers. All the
                   diverse mutual funds registered with the SEC, with standard
